@@ -1,0 +1,681 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;700;900&family=PT+Serif:ital@1&display=swap');
+
+.fas{
+    color: #FFFFFF;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+    margin: 0 auto;
+}
+
+header{
+    background: linear-gradient(rgba(0,0,0,1.3), rgba(0,0,0,0.7)), url('./dataCenter.jpg'), no-repeat, center;
+    background-size: cover;
+}
+
+.navigation{
+    padding: 0 13%;
+}
+
+.nav-hr{
+    border: none;
+    height: 1.5px;
+}
+
+.navigation p{
+    display: inline-block;
+    font-size: 22px;
+    font-weight: bold;
+    width: 42%;
+    color: #FFFFFF;
+}
+
+nav{
+    display: inline-block;
+}
+
+ul{
+    padding-inline-start: 52px;
+    font-weight: bold;
+    margin: 0;
+}
+
+li{
+    display: inline-block;
+}
+
+nav ul li:not(:last-child){
+    padding-right: 57px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #ABABAC;
+    border-bottom: solid 2px transparent;
+    padding-bottom: 32px;
+}
+
+nav ul li a:hover{
+    border-bottom: solid 1px #A5A5A6;
+}
+
+label{
+    margin: 0 40px 0 0;
+    font-size: 26px;
+    line-height: 70x;
+    display: none;
+}
+
+#toggle{
+    display: none;
+}
+
+/*site-header*/
+
+.site-header{
+    color: #FFFFFF;
+}
+
+.site-header h1{
+    font-size: 60px;
+    font-weight: 900;
+    margin: 0;
+    text-align: center;
+    padding-top: 22%;
+}
+
+.site-header h2{
+    font-family: 'PT Serif', serif;
+    font-style: italic;
+    font-size: 33px;
+    font-weight: normal;
+    margin: 0;
+    text-align: center;
+}
+
+.site-header h2:last-child{
+    padding-bottom: 22%;
+}
+
+/*main*/
+/*first-section*/
+
+.first-section > div > ul {
+    margin: 0;
+    padding: 0;
+}
+
+.first-section > div > ul > li > a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.first-section > div{
+    background: #2FAC6C;
+}
+
+.login-container{
+    background: #21424A;
+    padding: 2% 17% 2% 30%;
+    clip-path: polygon(0 0,100% 0%,97% 100%,0% 100%);
+}
+
+.register-container{
+    background: #2FAC6C;
+    padding: 2% 28% 2% 16%;
+}
+
+/*about-us*/
+
+.about-us-container{
+    display: inline-block;
+    width: 43%;
+    margin: 6% 0;
+    border-right: 2px dotted #DCDCDC;
+}
+
+body > main > section.about-us > ul{
+    display: inline-block;
+}
+
+body > main > section.about-us > .about-us-container > p{
+    width: 58%;
+    padding-left: 33%;
+    color: #AAAAAA;
+}
+
+body > main > section.about-us > .about-us-container > h2{
+    padding-left: 33%;
+    margin-top: 0;
+    color: #303030;
+}
+
+body > main > section.about-us > div.about-us-container > h2 > span{
+    font-weight: 900;
+}
+
+body > main > section.about-us > ul > li{
+    padding: 0px 65px;
+}
+
+body > main > section.about-us > ul > li > a > img{
+    border-radius: 50%;
+    border: 4px solid #E5E5E5
+}
+
+body > main > section.about-us > ul > li > a > h3{
+    margin-block-start: 0;
+    margin-block-end: 0;
+    color: #535353;
+    font-size: 1em;
+    font-weight: bold;
+    padding-top: 8px;
+    padding-bottom: 6px;
+}
+
+h3.team-1, h3.team-2{
+    padding-left: 17px;
+}
+
+h4.team-1, h4.team-2{
+    padding-left: 23px;
+}
+
+h4.team-3{
+    padding-left: 32px;
+}
+
+body > main > section.about-us > ul > li > a > h4{
+    margin-block-start: 0;
+    margin-block-end: 0;
+    color: #BFBFBF;
+    font-size: 0.9em;
+    padding-bottom: 8px;
+}
+
+body > main > section.about-us > ul > li > a{
+    text-decoration: none;
+}
+
+body > main > section.about-us > ul > li > ul{
+    padding-inline-start: 16px;
+}
+
+.fa-facebook-f, .fa-twitter, .fa-link{
+    color: #BFBFBF;
+}
+
+.fa-facebook-f:hover{
+    color: #268DBC;
+}
+
+.fa-twitter:hover{
+    color: #268DBC;
+}
+
+.fa-link:hover{
+    color: #268DBC;
+}
+
+.fa-facebook-f, .fa-twitter{
+    padding-right: 18px
+}
+
+/*testimonials*/
+.testimonials{
+    background: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.5)), url('./office-view.jpg'), no-repeat, center;
+    background-size: cover;
+}
+
+#eapps-testimonials-slider-1 > div.eapps-testimonials-slider-container > div > div.eapps-testimonials-slider-items > div > div > div.eui-slider-dots.eui-slider-dots-classic{
+    color: #FFF;
+}
+
+#eapps-testimonials-slider-1 > div.eapps-testimonials-slider-container > div > div.eapps-testimonials-slider-items > div > div > div.eapps-testimonials-slider-slider-inner.eapps-testimonials-slider-inner.eui-slider-inner > div.eapps-testimonials-slider-page.eapps-testimonials-slider-slider-item.eui-slider-slide.eui-slider-slide-active > div > div.eapps-testimonials-slider-page-item-text > div > span{
+     font-size: 19.6px;
+}
+
+body > main > section.testimonials > p{
+    color:#B2B2AF;  
+    width: 48%;
+    text-align: center;
+    padding: 3% 0 2% 24%;
+    margin: 0;
+}
+
+body > main > section.testimonials > h3{
+    margin: 0;
+    color: white;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+/*offerings*/
+
+body > main > section.offerings > ul > li > a{
+    text-decoration: none;
+}
+
+body > main > section.offerings > ul > li{
+    width: 15%;
+    padding: 6% 6% 6% 0;
+}
+
+body > main > section.offerings > ul > li > a > h3{
+    color: #303030;
+    font-size: 15px;
+    font-weight: 900;
+    text-align: center;
+    margin-block-end: 10px;
+}  
+
+body > main > section.offerings > ul > li > a > p{
+    color: #989898;
+    font-weight: normal;
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+    margin: 0;
+}
+
+body > main > section.offerings > ul > li:nth-child(1){
+    padding-left: 9%;
+}
+
+body > main > section.offerings > ul > li > a > i{
+    border-radius: 50%;
+    padding: 17px 14px;
+    margin-left: 40%;
+}
+
+body > main > section.offerings > ul > li:nth-child(1) > a > i{
+    padding-left: 18px;
+    padding-right: 18px;
+}
+
+.fa-bolt{
+    background: #F1C40F;
+}
+
+.fa-cloud{
+    background: #0FAFF1;
+}
+
+.fa-arrows-alt{
+    background: #95A5A6;
+}
+
+.fa-comments{
+    background: #F1540F;
+}
+
+/*footer*/
+
+footer{
+    font-size: 15px;
+}
+
+body > footer > section > div{
+    display: inline-block;
+    width: 27%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.footer-bar{
+    width: 29%;
+}
+
+.footer-section{
+    background: #2A2A2A;
+    color: #535353;
+    font-weight: bold;
+}
+
+.footer-section p span{
+    color: #666666;
+    font-weight: 900;
+}
+
+.page-design, .footer-bar{
+    border-right: 1px solid #535353;
+}
+
+.page-design{
+    padding-left: 12%;
+}
+
+.page-design p:nth-child(1){
+    line-height: 29px;
+    width: 75%;
+}
+
+.page-design p:nth-child(2){
+    margin-top: 0;
+    margin-bottom: 14px;
+}
+
+.footer-bar ul{
+    padding: 0;
+    display: inline-block;
+    width: 46%;
+    margin-top: 13px;
+    margin-bottom: 0;
+}
+
+.footer-bar ul li{
+    padding-bottom: 13px;
+}
+
+.footer-bar ul:first-of-type li{
+    padding-left: 75px;
+}
+
+.footer-bar ul:nth-of-type(2) li{
+    padding-left: 48px;
+}
+
+.footer-bar ul li a{
+    text-decoration: none;
+    color: #5E5E5E;
+}
+
+.footer-bar ul li a:hover{
+    color: white;
+}
+
+.contacts a{
+    display: block;
+    text-decoration: none;
+}
+
+.phone, .fa-envelope, .fa-phone-alt{
+    color: #686868;
+}
+
+.email, .address{
+    color: #5E5E5E;
+}
+
+body > footer > section > div.contacts > a > i{
+padding-right: 10px;
+}
+
+.contacts{
+    width: 18%;
+    margin-left: 70px;
+}
+
+.contacts a{
+    padding-bottom: 15px;
+}
+
+.address{
+    line-height: 30px;
+    margin: 0;
+}
+
+/*media queries*/
+
+@media  screen and (max-width: 1300px) {
+    body > header > section.navigation > p{
+        width: 22%;
+    }
+
+    .login-container{
+        width: 53%;
+        clip-path: polygon(0 0,100% 0%,100% 100%,0% 100%);
+    }
+
+    .register-container{
+        width: 44%;
+        padding-left: 28%;
+    }
+
+    @media  screen and (max-width: 1130px) {
+        nav ul li a{
+        padding-bottom: 7px;
+    }
+    }
+    @media  screen and (max-width: 892px) {
+        nav ul li:not(:nth-child(6)) a{
+        padding-bottom: 26px;
+  }
+
+  @media  screen and (max-width: 810px) {
+    nav ul li:nth-child(5) a{
+    padding-bottom: 7px;
+    }
+  }
+
+    .about-us-container{
+        width: 70%;
+    }
+
+    .page-design{
+        width: 40%;
+    }
+
+    .footer-bar{
+        width: 41%;
+    }
+
+    body > main > section.about-us > .about-us-container > h2{
+        padding-left: 18%;
+    }
+
+    body > main > section.about-us > .about-us-container > p{
+        padding-left: 18%;
+    }
+
+    body > footer > section > div.footer-bar > ul:nth-child(1) > li{
+        padding-left: 37px;
+    }
+
+    .contacts{
+        margin-left: 70px;
+        width: 90%;
+    }
+}
+
+@media  screen and (max-width: 768px) {
+    .page-design {width: 100%;}
+    .footer-bar {width: 100%;}
+    .contacts {width: 100%;}
+    .about-us-container {width: 100%;}
+
+    body > header > section.navigation > p{
+        display: none;
+    }
+
+    label{
+        display: block;
+        color: #FFFFFF;
+        cursor: pointer;
+        width: 26px;
+        float: left;
+    }
+    .menu{
+        text-align: center;
+        width: 100%;
+        display: none;
+    }
+
+    .menu > li{
+        display: block;
+        width: 100%;
+    }
+
+    .menu > li > a{
+        padding: 17px 0;
+        clear: left;
+        display: block;
+        margin: 0;
+
+    }
+    .menu > li > a:hover{
+        border-bottom: solid 1px #A5A5A6;
+    }
+    
+    #toggle:checked + .menu{
+        display: block;
+    }
+
+    body > main > section.about-us > .about-us-container > h2{
+        padding-left: 100px;
+    }
+    
+    body > main > section.about-us > .about-us-container > p{
+        padding-left: 100px;
+    }
+    
+    .login-container {
+        width: 29%;
+        text-align: center;
+        padding-right: 41%;
+        clip-path: polygon(0 0,100% 0%,100% 100%,0% 100%);
+    }
+
+    .register-container {
+        width: 34%;
+        text-align: center;
+    }
+
+    body > main > section.offerings > ul > li {width: 40%;}
+    body > main > section.offerings > ul > li:nth-child(1) {padding-left: 0;}
+
+    .footer-bar ul:nth-of-type(1){
+       width: 38%;
+    }
+
+    .footer-bar > ul:nth-child(2){
+        width: 36%;
+    }
+   
+    .page-design{
+        width: 88%;
+    }
+
+    .contacts{
+       margin-left: 75px;
+       width: 80%;
+    }
+
+    body > footer > section > div.footer-bar > ul:nth-child(1) > li{
+        padding-left: 78px;
+    }
+
+    #eapps-testimonials-slider-1 > div.eapps-testimonials-slider-container > div > div.eapps-testimonials-slider-items > div > div > div.eapps-testimonials-slider-slider-inner.eapps-testimonials-slider-inner.eui-slider-inner > div.eapps-testimonials-slider-page.eapps-testimonials-slider-slider-item.eui-slider-slide.eui-slider-slide-active > div > div.eapps-testimonials-slider-page-item-text > div > span{
+        font-size: 16.6px;
+   }
+}
+
+@media  screen and (max-width: 480px) {
+    .page-design {width: 100%;}
+    .footer-bar {width: 100%;}
+    .contacts {width: 100%;}
+    .about-us-container {width: 100%;}
+
+    body > header > section.navigation > p{
+        display: none;
+    }
+
+    label{
+        display: block;
+        color: #FFFFFF;
+        cursor: pointer;
+        width: 26px;
+        float: left;
+    }
+
+    .menu{
+        text-align: center;
+        width: 100%;
+        display: none;
+    }
+
+    .menu > li{
+        display: block;
+        width: 100%;
+    }
+
+    .menu > li > a{
+        padding: 17px 0;
+        clear: left;
+        display: block;
+        margin: 0;
+    }
+
+    .menu > li > a:hover{
+        border-bottom: solid 1px #A5A5A6;
+    }
+    
+    #toggle:checked + .menu{
+        display: block;
+    }
+
+    body > header > section.navigation > p{
+        width: 45%;
+    }
+
+    body > header > section.navigation > nav > ul > li:nth-child(1){
+        padding-right: 48px;
+    }
+
+    body > header > section.navigation > nav > ul > li:nth-child(3){
+        padding-right: 34px;
+    }
+
+    body > header > section.site-header > h2{
+        font-size: 27px;
+    }
+
+    body > main > section.about-us > .about-us-container > h2{
+        padding-left: 100px;
+    }
+
+    body > main > section.about-us > .about-us-container > p{
+        padding-left: 100px;
+    }
+
+    .login-container {
+        width: 29%;
+        text-align: center;
+        clip-path: polygon(0 0,100% 0%,100% 100%,0% 100%);
+    }
+
+    .register-container {
+        width: 35%;
+        text-align: center;
+    }
+
+    body > main > section.offerings > ul > li{
+        padding-right: 0;
+    }
+
+    body > main > section.offerings > ul > li {width: 100%;}
+    body > main > section.offerings > ul > li:nth-child(1) {padding-left: 0;}
+
+    .footer-bar ul:nth-of-type(1){
+        width: 41%;
+     }
+
+    .footer-bar > ul:nth-child(2){
+         width: 39%;
+     }
+
+    .page-design{
+         padding-left: 17%;
+         width: 82%;
+     }
+
+    .contacts {
+        width: 82%;
+    }
+
+     #eapps-testimonials-slider-1 > div.eapps-testimonials-slider-container > div > div.eapps-testimonials-slider-items > div > div > div.eapps-testimonials-slider-slider-inner.eapps-testimonials-slider-inner.eui-slider-inner > div.eapps-testimonials-slider-page.eapps-testimonials-slider-slider-item.eui-slider-slide.eui-slider-slide-active > div > div.eapps-testimonials-slider-page-item-text > div > span{
+        font-size: 12.6px;
+   }
+ }
+}
